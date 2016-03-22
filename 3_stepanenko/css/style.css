@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+
+body {
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+  width: 1060px;
+  overflow: auto;
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
+
+.main {
+  margin: 50px 48px 60px 46px;
+}
+
+.nav {
+  margin-top: 40px;
+  background-color: #4e4d4d;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.menu a{
+  display: block;
+  padding-left: 23px;
+  padding-right: 23px;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.67px;
+  color:#ffffff;
+  line-height: 40px;
+  text-decoration: none;
+  text-shadow: #606060 1px 1px;
+  border-left: 1px solid #4e4d4d;
+  border-right: 1px solid #4e4d4d;
+}
+
+.nav .active_menu a{
+  background-color: #3e3e3e;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+.menu:hover a{
+  background-color: #3e3e3e;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+hover:not(.active_menu) a{
+  background-color: #3e3e3e;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+.container {
+  margin-top: 40px;
+  overflow: auto;
+}
+
+.sidebar {
+  float: left;
+  width: 238px;
+  border-left: 1px solid #c8c8c8;
+  border-top: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+}
+
+.sidebar_button {
+  border-bottom: 1px solid #c8c8c8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.33px;
+  line-height: 37.33px;
+}
+
+.sidebar_button a {
+  outline: none;
+  display: block;
+  padding-left: 23px;
+  color: #656363;
+  text-decoration: none;
+}
+
+.sidebar .active_sidebar a{
+  display: block;
+  padding-left: 35px;
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+}
+
+.sidebar_button:hover a{
+  display: block;
+  padding-left: 35px;
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+}
+
+.content {
+  overflow: auto;
+}
+
+.content_foto {
+  float: right;
+  border: 1px solid #c8c8c8;
+}
+
+.text {
+  float: right;
+  margin-top: 40px;
+  padding-left: 72px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.33px;
+  color: #2c2c2c;
+  line-height: 21.33px;
+}
+
+.footer {
+  background-color: #e1e1e1;
+  margin-top: 60px;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.33px;
+  line-height: 40px;
+  color: #2c2c2c;
+}
+
+.footer li {
+  float: left;
+  margin-right: 40px;
+}
+.footer li a {
+  outline: none;
+  display: block;
+  padding-left: 23px;
+  padding-right: 23px;
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.copy {
+  float: right;
+  padding-right: 26px;
+  color: #2c2c2c;
+}
+
+.footer li .active_footer {
+  text-decoration: underline;
+}
+
+.footer li:hover a{
+  text-decoration: underline;
+}
